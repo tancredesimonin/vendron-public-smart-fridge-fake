@@ -1,5 +1,8 @@
 {
-  "private": true,
+  "name": "vendron-public-smart-fridge-fake",
+  "private": false,
+  "version": "0.1.0",
+  "description": "Vendron Fake Smart Fridge Emulator",
   "scripts": {
     "dev": "nodemon",
     "build": "next build && tsc --project tsconfig.server.json",
@@ -23,5 +26,9 @@
     "nodemon": "^2.0.4",
     "ts-node": "^8.10.2",
     "typescript": "^4.5.5"
-  }
+  },
+  "author": {
+    "name": "@tancredesimonin"
+  },
+  "license": "GPL-3.0"
 }
